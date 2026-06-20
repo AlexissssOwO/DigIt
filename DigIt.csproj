@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Dalamud.CN.NET.Sdk/15.0.0">
-    <PropertyGroup>
-        <Title>DigIt</Title>
-        <Description>FF14 挖宝统计插件</Description>
-        <Authors>AlexissssOwO</Authors>
-        <Version>0.0.0.1</Version>
-        <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
-    </PropertyGroup>
+  <PropertyGroup>
+    <Authors>AlexissssOwO</Authors>
+    <Version>0.0.0.1</Version>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+  </PropertyGroup>
 
-    <PropertyGroup>
-        <UseWindowsForms>true</UseWindowsForms>
-        <ImplicitUsings>true</ImplicitUsings>
-        <RuntimeIdentifier>win-x64</RuntimeIdentifier>
-        <SelfContained>false</SelfContained>
-        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-        <BaseOutputPath>$(SolutionDir)bin</BaseOutputPath>
-        <SatelliteResourceLanguages>xxx</SatelliteResourceLanguages>
-        <NoWarn>1701;1702;CS0414;CS8601;CS8602;CS8604;CS8603;IDE1006;IDE0300;MSB3270;MSB324;CS0649;CA2211;CS8509;CS8625;MSB3305;CS8618;CS8600;CS8605;CS8620;CS0579</NoWarn>
-        <DebugType>none</DebugType>
-        <DebugSymbols>false</DebugSymbols>
-        <Optimize>True</Optimize>
-        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-        <GenerateAssemblyTargetPlatformAttribute>false</GenerateAssemblyTargetPlatformAttribute>
-        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
-    </PropertyGroup>
+  <PropertyGroup>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>true</ImplicitUsings>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <SatelliteResourceLanguages>xxx</SatelliteResourceLanguages>
+    <NoWarn>1701;1702;CS0414;CS8601;CS8602;CS8604;CS8603;IDE1006;IDE0300;MSB3270;MSB324;CS0649;CA2211;CS8509;CS8625;MSB3305;CS8618;CS8600;CS8605;CS8620;CS0579</NoWarn>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>True</Optimize>
+  </PropertyGroup>
 
-    <ItemGroup>
-        <None Include="DigIt.json" CopyToOutputDirectory="Always"/>
-    </ItemGroup>
-
-    <ItemGroup>
-        <ProjectReference Include="OmenTools\OmenTools.csproj"/>
-    </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="OmenTools\OmenTools.csproj"/>
+  </ItemGroup>
 </Project>
